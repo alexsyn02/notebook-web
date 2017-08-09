@@ -1,0 +1,81 @@
+body {
+    background: #00FF7F;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+input, button {
+    outline: none;
+}
+
+input[type="text"] {
+    min-width: 240px;
+    width: 20%;
+    border-radius: 2px;
+    height: 30px;
+    padding-left: 5px;
+    border: 1px solid transparent;
+    -webkit-transition: ease-in 0.5s;
+    -moz-transition: ease-in 0.5s;
+    -ms-transition: ease-in 0.5s;
+    -o-transition: ease-in 0.5s;
+    transition: ease-in 0.5s;
+}
+
+input[type="text"]:focus {
+    border: 1px solid #1e90ff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.language {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #7FFFD4;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 0 20px black;
+}
+
+.language span {
+    display: inline-block;
+    min-width: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+button {
+    display: block;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #000;
+    font-size: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 20px auto 10px;
+    -webkit-transition: ease-in 0.25s;
+    -moz-transition: ease-in 0.25s;
+    -ms-transition: ease-in 0.25s;
+    -o-transition: ease-in 0.25s;
+    transition: ease-in 0.25s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #1e90ff;
+}
+
+.language label {
+    display: inline-block;
+    margin: 5px 0;
+}
